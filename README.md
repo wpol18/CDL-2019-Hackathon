@@ -6,3 +6,5 @@ A repository for our group's CDL hackathon ideas/submission material:
 2. ```Xanadu Photonic Processor GBS```: Example of graph coloring using Gaussian Boson Sampling ran on Xanadu's gaussian simulator.
 
 3. ```Graph Coloring with QAOA in PyQuil```: Graph coloring done using Rigetti's QAOA implementation. 
+
+4. ```Xanadu GBS Coloring Triangle:``` Graph coloring done on a tessalated triangular graph.
