@@ -5,8 +5,10 @@ A repository for our group's CDL hackathon ideas/submission material.
 Given a graph with nodes and edges, the aim of graph coloring is to minimize the number of same-color nodes that share an edge; i.e. assign colors to each node in a graph such that no (or few) nodes connected by an edge share the same color.
 
 This graph-theoretic problem underlies many important real-world applications. Some examples:
-• Given a set of jobs and time-slots for those jobs, try to find the best time-schedule such that no jobs which share the same resource are scheduled at the same time. In this case, each job can be represented as a node, each time-slot as a color, and edges connecting nodes represent sets of jobs that share the same resource.
-• Imagine your job is to allocate distribution networks and negotiate prices between suppliers and plants/factories that need to be supplied. Your goal is to have the maximum amount of leverage in price setting, and as such, you are interested in maximizing the amount of competitiveness between suppliers to supply regions of plants. In this case, each plant can be represented as a node, each supplier as a color; you want to spread out your suppliers across the plants in a network such that no supplier gains a monopoly over a large portion of a network.
+
+1. Given a set of jobs and time-slots for those jobs, try to find the best time-schedule such that no jobs which share the same resource are scheduled at the same time. In this case, each job can be represented as a node, each time-slot as a color, and edges connecting nodes represent sets of jobs that share the same resource.
+
+2. Imagine your job is to allocate distribution networks and negotiate prices between suppliers and plants/factories that need to be supplied. Your goal is to have the maximum amount of leverage in price setting, and as such, you are interested in maximizing the amount of competitiveness between suppliers to supply regions of plants. In this case, each plant can be represented as a node, each supplier as a color; you want to spread out your suppliers across the plants in a network such that no supplier gains a monopoly over a large portion of a network.
 
 ## Graph coloring with Quantum Computing?
 As the size of a graph increases node by node, the computational resources required for a good coloring scale exponentially: graph coloring for large problem sizes can be  computationally _expensive_ or even _intractable_. As such, it is a natural question to ask whether or not quantum computers can offer a performance advantage.
